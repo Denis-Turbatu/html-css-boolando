@@ -1,87 +1,201 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="./css/style.css" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
     <title>Boolando</title>
   </head>
   <body>
     <!-- HEADER -->
-    <header class="pad-20px">
-      <div class="container-maxw-1180px header-container">
-        <ul class="header-nav-item navbar p-t-20px">
-          <a href=""><li>Donna</li></a>
-          <a href=""><li>Uomo</li></a>
-          <a href=""><li>Bambini</li></a>
+    <header>
+      <div class="container-maxw-1180px h-container p-20">
+        <ul class="h-navbar">
+          <li><a href="" class="white-color-item">Donna</a></li>
+          <li><a href="" class="white-color-item">Uomo</a></li>
+          <li><a href="" class="white-color-item">Bambini</a></li>
         </ul>
 
-        <img
-          class="header-nav-item logo"
-          src="./img/boolean-logo.png"
-          alt="logo"
-        />
+        <img class="h-logo" src="./img/boolean-logo.png" alt="logo">
 
-        <span class="header-nav-item anchor-icon-items">
-          <a href="">
-            <i class="fa-regular fa-user"></i>
-          </a>
-          <a href="">
-            <i class="fa-regular fa-heart"></i>
-          </a>
-          <a href="">
-            <i class="fa-solid fa-bag-shopping"></i>
-          </a>
-        </span>
+        <ul class="anchor-icons">
+          <li>
+            <a href="" class="white-color-item">
+              <i class="fa-regular fa-user"></i>
+            </a>
+          </li>
+          <li>
+            <a href="" class="white-color-item">
+              <i class="fa-regular fa-heart"></i>
+            </a>
+          </li>
+          <li>
+            <a href="" class="white-color-item">
+              <i class="fa-solid fa-bag-shopping"></i>
+            </a>
+          </li>
+        </ul>
       </div>
     </header>
-
     <!-- /HEADER -->
 
     <!-- MAIN -->
 
-    <div class="container-maxw-1180px main-container p-t-50px">
-      <div class="obj-layout">
-        <div class="card-obj">
-          <img src="./img/1.webp" alt="" />
+    <div class="container-maxw-1180px m-container p-t-50">
+      <div class="object-layout p-20">
+        <!-- OBJECT 1 -->
+        <div class="card-object">
+          <!-- object -->
+          <img src="./img/1.webp" alt="img-1-front">
+          <img class="retro-img" src="./img/1b.webp" alt="img-1-retro">
+          <div class="tagline">
+            <span class="red-bg p-5 white-color-item">-50%</span>
+            <span class="green-bg p-5 white-color-item">Sostenibilità</span>
+          </div>
+          <div class="heart">&hearts;</div>
+        </div>
+        <!-- description -->
+        <div class="card-description">
+          <h6>Levi's</h6>
+          <h4>RELAXED TEE UNISEX</h4>
+          <span class="red-color">14,99€</span>
+          <span class="linethrough-price">29,99€</span>
         </div>
       </div>
-      <div class="obj-layout">
-        <div class="card-obj">
-          <img src="./img/2.webp" alt="" />
+
+      <!-- OBJECT 2 -->
+      <div class="object-layout p-20">
+        <div class="card-object">
+          <!-- object -->
+          <img src="./img/2.webp" alt="img-2-front">
+          <img class="retro-img" src="./img/2b.webp" alt="img-2-retro">
+          <div class="tagline">
+            <span class="red-bg p-5 white-color-item">-30%</span>
+          </div>
+          <div class="heart">&hearts;</div>
+        </div>
+        <!-- description -->
+        <div class="card-description">
+          <h6>Guess</h6>
+          <h4>ROSES TEE</h4>
+          <span class="red-color">20,99€</span>
+          <span class="linethrough-price">29,99€</span>
         </div>
       </div>
-      <div class="obj-layout">
-        <div class="card-obj">
-          <img src="./img/3.webp" alt="" />
+
+      <!-- OBJECT 3 -->
+      <div class="object-layout p-20">
+        <div class="card-object">
+          <!-- object -->
+          <img src="./img/3.webp" alt="img-3-front">
+          <img class="retro-img" src="./img/3b.webp" alt="img-3-retro">
+          <div class="tagline">
+            <span class="red p-5 white-color-item">-30%</span>
+          </div>
+          <div class="heart">&hearts;</div>
+        </div>
+        <!-- description -->
+        <div class="card-description">
+          <h6>Come zucchero filato</h6>
+          <h4>VOGLIA DI COLORI PASTELLO</h4>
+          <span class="red-color">129,99€</span>
+          <span class="linethrough-price">184,99€</span>
         </div>
       </div>
-      <div class="obj-layout">
-        <div class="card-obj">
-          <img src="./img/4.webp" alt="" />
+
+      <!-- OBJECT 4 -->
+      <div class="object-layout pad-20px">
+        <div class="card-object">
+          <!-- object -->
+          <img src="./img/4.webp" alt="img-4-front">
+          <img class="retro-img" src="./img/4b.webp" alt="img-4-retro">
+          <div class="tagline">
+            <span class="red-bg p-5 white-color-item">-50%</span>
+            <span class="green-bg p-5 white-color-item">Sostenibilità</span>
+          </div>
+          <div class="heart">&hearts;</div>
+        </div>
+        <!-- description -->
+        <div class="card-description">
+          <h6>Levi's</h6>
+          <h4>TEE UNISEX</h4>
+          <span class="red-color">14,99€</span>
+          <span class="linethrough-price">29,99€</span>
         </div>
       </div>
-      <div class="obj-layout">
-        <div class="card-obj">
-          <img src="./img/5.webp" alt="" />
+
+      <!-- OBJECT 5 -->
+      <div class="object-layout pad-20px">
+        <div class="card-object">
+          <!-- object -->
+          <img src="./img/5.webp" alt="img-5-front">
+          <img class="retro-img" src="./img/5b.webp" alt="img-5-retro">
+          <div class="heart">&hearts;</div>
+        </div>
+        <!-- description -->
+        <div class="card-description">
+          <h6>Maya Deluxe</h6>
+          <h4>STRIPE BODICE</h4>
+          <span class="red-color">99,99€</span>
         </div>
       </div>
-      <div class="obj-layout">
-        <div class="card-obj">
-          <img src="./img/5.webp" alt="" />
+
+      <!-- OBJECT 6 -->
+      <div class="object-layout pad-20px">
+        <div class="card-object">
+          <!-- object -->
+          <img src="./img/6.webp" alt="img-6-front">
+          <img class="retro-img" src="./img/6b.webp" alt="img-6-retro">
+          <div class="tagline">
+            <span class="green-bg pd-5 white-color-item">Sostenibilità</span>
+          </div>
+          <div class="heart">&hearts;</div>
+        </div>
+        <!-- description -->
+        <div class="card-description">
+          <h6>Espirit</h6>
+          <h4>MAGLIONE - BLACK</h4>
+          <span class="red-color">29,99€</span>
         </div>
       </div>
     </div>
-
     <!-- /MAIN -->
 
     <!-- FOOTER -->
+    <footer>
+      <div class="container-maxw-1180px flex-container">
+        <div class="f-container">
+          <span class="white-color-item">Boolando s.r.l.</span>
+          <ul class="flex-footer-items p-t-30">
+            <li><a class="white-color-item" href="">Informazioni legali</a></li>
+            <li>
+              <a class="white-color-item" href="">Informativa sulla privacy</a>
+            </li>
+            <li><a class="white-color-item" href="">Diritti di recesso</a></li>
+          </ul>
+        </div>
+        <div class="f-container white-color-item social flex-container">
+          <p class="">Trovaci anche su</p>
+          <div class="anchor-icons p-t-30">
+            <a href="" class="white-color-item">
+              <i class="fa-brands fa-twitter"></i>
+            </a>
+            <a href="" class="white-color-item">
+              <i class="fa-brands fa-facebook"></i>
+            </a>
+            <a href="" class="white-color-item">
+              <i class="fa-brands fa-youtube"></i>
+            </a>
+            <a href="" class="white-color-item">
+              <i class="fa-brands fa-pinterest"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </footer>
     <!-- /FOOTER -->
 
     <script
