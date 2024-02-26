@@ -149,3 +149,25 @@ a{
 
 /* FOOTER */
 
+footer {
+    background-color: #222;
+    padding: 30px;
+}
+
+.flex-footer-items{
+    display: flex;
+    gap: 15px;
+}
+
+.flex-container{
+    display: flex;
+}
+
+.footer-section{
+    width: 50%;
+    padding: 20px;
+}
+
+.social{
+    text-align: right;
+}
